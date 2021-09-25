@@ -29,7 +29,7 @@ div.body{
     }
 }
 
-body {
+body, html {
     /* Sizes */
     width: 100%;
 
@@ -38,6 +38,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+::selection{
+    /* Colors */
+    background-color: rgba(0, 0, 0, 0.378);
+    color: lime;
 }
 
 section#content{

@@ -59,14 +59,6 @@
     /* Aligns */
     display: flex;
     flex-direction: column;
-}
-
-.blurb{
-    /* Sizes */
-    padding: 20px;
-}
-
-.blurb h2{
-    /* Aligns */
-    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
